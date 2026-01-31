@@ -8,5 +8,18 @@
 <body>
     <h1>hello world</h1>
 </body>
+<script>
+    const x = "hello world";
+    debugger;  // Явная точка останова 1
+    console.log(x);
+
+    // Для второй точки останова в VS Code
+    function test() {
+        let y = 5;  // Здесь поставим точку останова вручную
+        let z = 10;
+        return y + z;
+    }
+    console.log(test());
+</script>
 
 </html>
